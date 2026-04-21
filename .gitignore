@@ -1,0 +1,7 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+terraform.tfvars
+crash.log
+echo ".terraform.lock.hcl" >> .gitignore
